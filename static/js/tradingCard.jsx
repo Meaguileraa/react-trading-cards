@@ -49,3 +49,25 @@ ReactDOM.render(
   ),
   document.querySelector('#llambda')
 );
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Seedpy"
+      skill="riddles"
+      imgUrl="/static/img/seedpy.jpg"
+    />
+  ),
+  document.querySelector('#seedpy')
+);
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Shortstack"
+      skill="playing basketball"
+      imgUrl="/static/img/shortstack-overflow.jpg"
+    />
+  ),
+  document.querySelector('#shortstack')
+);
